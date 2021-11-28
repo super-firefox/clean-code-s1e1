@@ -4,25 +4,25 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.sample {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.sample img {
   width: 100%;
 }
-.aaa .more_inf {
+.sample .sample__info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa {
+.sample {
   text-align: center;
 }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -129,7 +129,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#todo__completed label {
   text-decoration: line-through;
   color: #888;
 }
