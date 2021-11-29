@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -43,7 +43,9 @@ li, h3 {
 input,button{
   outline:none;
 }
-button {
+
+/* Edit/Delete buttons */
+.button__edit, .button__delete, .button__add {
   background: none;
   border: 0px;
   color: #888;
@@ -52,7 +54,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.button__edit:hover, .button__delete:hover, .button__add:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -101,24 +103,24 @@ button:hover {
   vertical-align: middle;
 }
 
-.todo__item > input[type="checkbox"] {
+.todo__item > .task__tick {
   margin: 0 10px;
 }
-.todo__item > label {
+.todo__item > .task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.todo__item >  input[type="text"] {
+.todo__item >  .task__input-text {
   width: 226px;
 }
-.delete img {
+.button__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.button__delete img:hover {
   transform: rotateZ(0);
 }
 

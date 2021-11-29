@@ -9,7 +9,7 @@
           media="screen"
           charset="utf-8">
   </head>
-  <body>
+  <body class=".page">
     <article class="sample">
       <img src="./assets/eisenhower-matrix.jpg" alt="eisenhower matrix as a prioritization tool">
       <a class="sample__info"
@@ -23,7 +23,7 @@
           <label class="todo__caption" for="new-task">Add Item</label>
           <div class="todo__item">
             <input class="task__field task__input-text" id="new-task" type="text">
-            <button>Add</button>
+            <button class="button__add">Add</button>
           </div>
         </section>
         <section>
@@ -33,8 +33,8 @@
               <input class="task__tick" type="checkbox">
               <label class="task__field task__label">Pay Bills</label>
               <input class="task__field task__input-text" type="text">
-              <button class="edit">Edit</button>
-              <button class="delete">
+              <button class="button__edit">Edit</button>
+              <button class="button__delete">
                 <img src="./assets/remove.svg" alt="button delete select item">
               </button>
             </li>
@@ -42,8 +42,8 @@
               <input class="task__tick" type="checkbox">
               <label class="task__field task__label">Go Shopping</label>
               <input class="task__field task__input-text" type="text" value="Go Shopping">
-              <button class="edit">Save</button>
-              <button class="delete">
+              <button class="button__edit">Save</button>
+              <button class="button__delete">
                 <img src="./assets/remove.svg" alt="button delete select item">
               </button>
             </li>
@@ -56,8 +56,8 @@
               <input class="task__tick" type="checkbox" checked>
               <label class="task__field task__label">See the Doctor</label>
               <input class="task__field task__input-text" type="text">
-              <button class="edit">Edit</button>
-              <button class="delete">
+              <button class="button__edit">Edit</button>
+              <button class="button__delete">
                 <img src="./assets/remove.svg" alt="button delete select item">
               </button>
             </li>
