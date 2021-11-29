@@ -45,14 +45,9 @@ var createNewTaskElement = function (taskString) {
   editButton.className = "button__edit";
 
   deleteButton.className = "button__delete";
-  let image = new Image();
-  image.src = '../assets/remove.svg';
-  image.onload = () => {
-    deleteButtonImg.src = '../assets/remove.svg';
-    deleteButtonImg.alt = 'button delete select item';
-    deleteButton.appendChild(deleteButtonImg);
-  };
-  
+  deleteButtonImg.src = '../assets/remove.svg';
+  deleteButtonImg.alt = 'button delete select item';
+  deleteButton.appendChild(deleteButtonImg);
 
   listItem.classList.add('todo__item')
   //and appending.
