@@ -10,10 +10,14 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+
+li,
+h3 {
   list-style: none;
 }
-input,button{
+
+input,
+button {
   outline: none;
 }
 
@@ -54,7 +58,9 @@ input,button{
 
 /* Edit/Delete buttons */
 
-.button__edit, .button__delete, .button__add {
+.button__edit,
+.button__delete,
+.button__add {
   background: none;
   border: 0px;
   color: #888;
@@ -64,7 +70,9 @@ input,button{
   cursor: pointer;
 }
 
-.button__edit:hover, .button__delete:hover, .button__add:hover {
+.button__edit:hover,
+.button__delete:hover,
+.button__add:hover {
   color: #3a3a3a;
 }
 
@@ -130,7 +138,7 @@ input,button{
   width: 226px;
 }
 
-.todo__item >  .task__input-text {
+.todo__item > .task__input-text {
   width: 226px;
 }
 
